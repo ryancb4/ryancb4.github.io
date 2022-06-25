@@ -21,6 +21,13 @@ google.charts.load('current', {
     // {width: 556, height: 347, region: "US", resolution: "provinces"}
     var options = {
       displayMode: 'auto',
+      icons: {
+        default: {
+          normal: 'https://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Azure-icon.png',
+          selected: 'https://icons.iconarchive.com/icons/icons-land/vista-map-markers/48/Map-Marker-Ball-Right-Azure-icon.png'
+        }
+      },
+  
         region: "US-MD", resolution: "provinces",
       colorAxis: {colors: [ 'black', 'black']},
       backgroundColor: '#81d4fa',
