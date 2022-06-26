@@ -14,7 +14,7 @@ function drawChart() {
   data.addColumn('string', 'Dependencies');
 
   data.addRows([
-    ['InfoSec',       'Info. Sys. Sec. Asso. Student Chapter President',      'InfoSec',    new Date(2017, 3, 1),  new Date(2018, 5, 20),  null, 100,  null],
+    ['InfoSec',       'Info. Sys. Sec. Asso. Student Chap. President',      'InfoSec',    new Date(2017, 3, 1),  new Date(2018, 5, 20),  null, 100,  null],
     ['SGAs',  'Carroll Community College SGA Senator',  'SGAs',  new Date(2017, 11, 10),  new Date(2018, 5, 20),  null, 100,  null],
     ['FB',  'UMBC SGA Finance Board Representative',   'FB',  new Date(2019, 3, 10),   new Date(2020, 5, 20),  null, 100,  null],
     ['BD',       'Door To Virtue #46 Holding Corporation',     'BD',    new Date(2020, 1, 24),  new Date(2022, 12, 25),  null, 90,   null],

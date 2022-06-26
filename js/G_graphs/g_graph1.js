@@ -20,7 +20,7 @@ function drawChart() {
     ['Master/Bachelor', 'Joint MS/BS Computer Science',   'MS/BS',        new Date(2020, 1, 15),  new Date(2021, 1, 24),  null, 100,  'Bachelor\'s CS'],
     ['Master\'s',       'Master\'s Computer Science',     'Master\'s',    new Date(2021, 1, 24),  new Date(2023, 5, 15),  null, 70,   'Master/Bachelor'],
     ['PhD',             'PhD Computer Science',           'PhD',          new Date(2022, 6, 21),  new Date(2028, 5, 15),  null, 3.5,   'Master\'s'],
-    ['TC',              'College Teaching & Learning Science Certificate',           'Tcert',          new Date(2021, 6, 1),  new Date(2022, 12, 15),  null, 82,   null],
+    ['TC',              'College Teaching & Learning Sci. Certificate',           'Tcert',          new Date(2021, 6, 1),  new Date(2022, 12, 15),  null, 82,   null],
 
   ]);
 
