@@ -26,6 +26,13 @@
   <script src="./js/G_graphs/g_graph_credits.js"></script>
 
     <style>
+ html {
+    scroll-padding-top: 60px; /* Replace with your fixed navbar height */
+}
+
+body {
+    margin:60px auto 0; /* Replace with your fixed navbar height */
+}
       /* #chart_div0, #chart_div1, #chart_div2,  #chart_div3{ pointer-events: none; } */
       .bdr {
           border-radius: 16px;
@@ -51,6 +58,40 @@
 
 </head>
 <body class="container-fluidmb-2 bg-dark  text-white" style="font-family: 'Quicksand', sans-serif; ">
+
+  
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link  " href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="#about">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Education">Education</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Work_History">Work History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="#Leadership_Experience">Leadership Experience</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Images">Images</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#Resume">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
     
     <div class="container-fluid   bg-primary bg-gradient text-white text-center  ">
         <br>
@@ -109,8 +150,8 @@
     </div>
     </div>
 </div>
-<div class="p-3 mb-2  ">
-    <div class="container mt-5">
+<div class="p-3 mb-2  ">    
+    <div class="container mt-5" id ="about">
         <div class="row">
             <div class="col-sm-4">
                 <h3>Motivation</h3>        
@@ -147,7 +188,7 @@
         <!-- <div class="card bdr">
           <div class="card-body bg-secondary ">  -->
 
-      <div class="card bdr">
+      <div class="card bdr " id="Education">
           <div class="card-body bg-dark "> 
                <h4 class=" text-primary text-center ">Education</h4> 
       </div></div>
@@ -206,7 +247,7 @@
     <!-- <div class="card bdr">
             <div class="card-body bg-secondary ">  -->
 
-        <div class="card bdr">
+        <div class="card bdr" id="Work_History">
             <div class="card-body bg-dark "> 
                  <h4 class=" text-primary text-center ">Work History</h4> 
         </div></div>
@@ -262,7 +303,7 @@
     <br><br><br> 
 
 
-          <div class="card bdr">
+          <div class="card bdr" id="Leadership_Experience">
             <div class="card-body bg-dark "> 
                  <h4 class=" text-primary text-center ">Leadership Experience</h4> 
         </div></div>
@@ -318,13 +359,57 @@
             <br><br><br>
 
             
+            <div class="card bdr" id="Images">
+              <div class="card-body bg-dark "> 
+                   <h4 class=" text-primary text-center ">Images</h4> 
+          </div></div><br>
+            <div  id="Image_display" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Image_display" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Image_display" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Image_display" data-bs-slide-to="2"></button>
+              </div>
+        
+              <!-- The slideshow/carousel -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/IMG_0041.jpg" alt=" " class="  mx-auto img-fluid rounded">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/IMG_0042.jpg" alt=" " class=" mx-auto img-fluid rounded">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/IMG_0046.jpg" alt=" " class=" mx-auto img-fluid rounded">
+                </div>
+              </div>
+        
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#Image_display" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#Image_display" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+
         </div>
     </div>
     <div class="container-fluid   bg-primary bg-gradient text-white text-center  ">
         <br>
     </div>
 
-    <div class="container-fluid p-5 bg-primary  text-white text-center">
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid p-5 bg-primary  text-white text-center"  id="Resume">
          <button  class="btn btn-dark" type="submit" target="_blank" onclick="window.open('Resume-Ryan Barron-2022.pdf')">Open My Full Resume! <i class="bi bi-file-earmark-text-fill"></i></button>
 </div>
 
